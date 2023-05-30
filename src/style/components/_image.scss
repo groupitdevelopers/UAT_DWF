@@ -1,0 +1,17 @@
+.imageWrapper {
+  img {
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    object-fit: cover
+  }
+  .autoHeight{
+    height: auto;
+    width: auto
+  }
+  .fixHeight {
+    height: 40rem
+  }
+}
