@@ -12,6 +12,7 @@ import { OpeningHours } from './openHours'
 import { SubscribeForm } from './subscribeForm'
 import { RichText } from './richText'
 import { Table } from './table'
+import { Youtube } from './youtube'
 
 export const components = {
   hero: Hero,
@@ -27,5 +28,6 @@ export const components = {
   openinghours: OpeningHours,
   subscribe_form: SubscribeForm,
   rich_text: RichText,
-  table: Table
+  table: Table,
+  youtube_video: Youtube
 }

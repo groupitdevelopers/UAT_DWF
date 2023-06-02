@@ -8,7 +8,6 @@
 @import "./src/style/designSystem/_utilities";
 @import "./src/style/designSystem/_form";
 
-
 html,
 body {
   margin: 0;
@@ -50,6 +49,9 @@ body {
   }
   
   @media screen and ($media-xs) {
+    .global-wrapper {
+      padding-bottom: 6rem;
+    }
     h1 { font-size: 2.8rem; }
     .hero-content {
       font-size: 2rem;
@@ -65,6 +67,9 @@ body {
   }
 
   @media screen and ($media-sm) {
+    .global-wrapper {
+      padding-bottom: 6rem;
+    }
     h1 { font-size: 3.2rem; }
     .hero-content {
       font-size: 2.2rem;
@@ -116,3 +121,4 @@ body {
 @import "./src/style/components/richText";
 @import "./src/style/components/table";
 @import "./src/style/components/footer";
+@import "./src/style/components/youtube";

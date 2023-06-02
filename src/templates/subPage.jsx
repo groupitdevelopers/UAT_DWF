@@ -266,6 +266,13 @@ export const query = graphql`
               header_text_color
             }
           }
+          ... on PrismicSubpageDataBodyYoutubeVideo {
+            id
+            slice_type
+            primary {
+              youtube_link
+            }
+          }
         }
         meta_description
         meta_keywords

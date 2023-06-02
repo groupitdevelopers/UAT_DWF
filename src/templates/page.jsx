@@ -268,6 +268,13 @@ export const query = graphql`
               column
             }
           }
+          ... on PrismicHomepageDataBodyYoutubeVideo {
+            id
+            slice_type
+            primary {
+              youtube_link
+            }
+          }
         }
         meta_description
         meta_keywords
