@@ -3,6 +3,8 @@ import React from 'react'
 export const OpeningHours = props => {
   const anchorId = props.slice.primary.anchor_id
 
+  console.log("DSFDF",props)
+
   return (
     <section
       className='container'
